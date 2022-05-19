@@ -1,3 +1,7 @@
-export function Component() {
-	return <h1>Component</h1>
+type componetProps = {
+	text: string
+}
+
+export function Component(props: componetProps) {
+	return <h1>{props.text}</h1>
 }

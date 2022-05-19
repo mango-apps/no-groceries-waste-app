@@ -3,8 +3,9 @@ import { Component } from './components/Component'
 function App() {
 	return (
 		<>
-			<h1>GROCERIES APP</h1>
-			<Component />
+			<Component text='Text 1' />
+			<Component text='Text 2' />
+			<Component text='Text 3' />
 		</>
 	)
 }
