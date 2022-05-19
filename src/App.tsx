@@ -1,11 +1,19 @@
-import { Component } from './components/Component'
+import { useState } from 'react'
+import { Grocery } from './components/Grocery'
 
 function App() {
+	const [names, setNames] = useState<string[]>(['lettuce', 'onion', 'tomato'])
+
+	function createContent() {
+		setNames([...names, 'carrot'])
+	}
+
 	return (
 		<>
-			<Component text='Text 1' />
-			<Component text='Text 2' />
-			<Component text='Text 3' />
+			{names.map(content => {
+				return <Grocery name={content} />
+			})}
+			<button onClick={createContent}> Add Grocery </button>
 		</>
 	)
 }
