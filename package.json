@@ -1,33 +1,35 @@
 {
-  "name": "groceries",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@chakra-ui/react": "^2.2.1",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "framer-motion": "^6.3.11",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-icons": "^4.4.0",
-    "react-router-dom": "^6.3.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.29.0",
-    "@typescript-eslint/parser": "^5.29.0",
-    "@vitejs/plugin-react": "^1.3.0",
-    "eslint": "^8.18.0",
-    "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-react": "^7.30.0",
-    "prettier": "2.7.1",
-    "typescript": "^4.6.3",
-    "vite": "^2.9.9"
-  }
+	"name": "groceries",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^2.2.1",
+		"@emotion/react": "^11.10.0",
+		"@emotion/styled": "^11.10.0",
+		"@mui/icons-material": "^5.8.4",
+		"@mui/material": "^5.9.3",
+		"framer-motion": "^6.3.11",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"react-icons": "^4.4.0",
+		"react-router-dom": "^6.3.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.0",
+		"@types/react-dom": "^18.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.29.0",
+		"@typescript-eslint/parser": "^5.29.0",
+		"@vitejs/plugin-react": "^1.3.0",
+		"eslint": "^8.18.0",
+		"eslint-config-react-app": "^7.0.1",
+		"eslint-plugin-react": "^7.30.0",
+		"prettier": "2.7.1",
+		"typescript": "^4.6.3",
+		"vite": "^2.9.9"
+	}
 }
